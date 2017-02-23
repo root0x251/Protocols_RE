@@ -15,6 +15,10 @@
 		F94F6AC41E5C6B7D009CDD53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94F6AC21E5C6B7D009CDD53 /* LaunchScreen.storyboard */; };
 		F94F6ACF1E5C6B7D009CDD53 /* ProptocolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F94F6ACE1E5C6B7D009CDD53 /* ProptocolsTests.m */; };
 		F94F6ADA1E5C6B7D009CDD53 /* ProptocolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F94F6AD91E5C6B7D009CDD53 /* ProptocolsUITests.m */; };
+		F96423861E5ED748003A207A /* SwimmerMan.m in Sources */ = {isa = PBXBuildFile; fileRef = F96423851E5ED748003A207A /* SwimmerMan.m */; };
+		F96423891E5ED75B003A207A /* JumperMan.m in Sources */ = {isa = PBXBuildFile; fileRef = F96423881E5ED75B003A207A /* JumperMan.m */; };
+		F964238C1E5ED766003A207A /* RunnerMan.m in Sources */ = {isa = PBXBuildFile; fileRef = F964238B1E5ED766003A207A /* RunnerMan.m */; };
+		F964238F1E5ED77D003A207A /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = F964238E1E5ED77D003A207A /* Cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,18 @@
 		F94F6AD51E5C6B7D009CDD53 /* ProptocolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProptocolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94F6AD91E5C6B7D009CDD53 /* ProptocolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProptocolsUITests.m; sourceTree = "<group>"; };
 		F94F6ADB1E5C6B7D009CDD53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F96423801E5ED081003A207A /* Jumpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Jumpers.h; path = ../Jumpers.h; sourceTree = "<group>"; };
+		F96423811E5ED08D003A207A /* Swimmers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swimmers.h; sourceTree = "<group>"; };
+		F96423821E5ED096003A207A /* Runners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runners.h; sourceTree = "<group>"; };
+		F96423831E5ED6DE003A207A /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		F96423841E5ED748003A207A /* SwimmerMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwimmerMan.h; sourceTree = "<group>"; };
+		F96423851E5ED748003A207A /* SwimmerMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwimmerMan.m; sourceTree = "<group>"; };
+		F96423871E5ED75B003A207A /* JumperMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumperMan.h; sourceTree = "<group>"; };
+		F96423881E5ED75B003A207A /* JumperMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumperMan.m; sourceTree = "<group>"; };
+		F964238A1E5ED766003A207A /* RunnerMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunnerMan.h; sourceTree = "<group>"; };
+		F964238B1E5ED766003A207A /* RunnerMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunnerMan.m; sourceTree = "<group>"; };
+		F964238D1E5ED77D003A207A /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		F964238E1E5ED77D003A207A /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +119,18 @@
 			children = (
 				F94F6AB71E5C6B7D009CDD53 /* AppDelegate.h */,
 				F94F6AB81E5C6B7D009CDD53 /* AppDelegate.m */,
+				F964238A1E5ED766003A207A /* RunnerMan.h */,
+				F964238B1E5ED766003A207A /* RunnerMan.m */,
+				F96423871E5ED75B003A207A /* JumperMan.h */,
+				F96423881E5ED75B003A207A /* JumperMan.m */,
+				F96423841E5ED748003A207A /* SwimmerMan.h */,
+				F96423851E5ED748003A207A /* SwimmerMan.m */,
+				F964238D1E5ED77D003A207A /* Cat.h */,
+				F964238E1E5ED77D003A207A /* Cat.m */,
+				F96423821E5ED096003A207A /* Runners.h */,
+				F96423801E5ED081003A207A /* Jumpers.h */,
+				F96423811E5ED08D003A207A /* Swimmers.h */,
+				F96423831E5ED6DE003A207A /* Common.h */,
 				F94F6ABA1E5C6B7D009CDD53 /* ViewController.h */,
 				F94F6ABB1E5C6B7D009CDD53 /* ViewController.m */,
 				F94F6ABD1E5C6B7D009CDD53 /* Main.storyboard */,
@@ -275,7 +303,11 @@
 			files = (
 				F94F6ABC1E5C6B7D009CDD53 /* ViewController.m in Sources */,
 				F94F6AB91E5C6B7D009CDD53 /* AppDelegate.m in Sources */,
+				F964238F1E5ED77D003A207A /* Cat.m in Sources */,
+				F964238C1E5ED766003A207A /* RunnerMan.m in Sources */,
 				F94F6AB61E5C6B7D009CDD53 /* main.m in Sources */,
+				F96423861E5ED748003A207A /* SwimmerMan.m in Sources */,
+				F96423891E5ED75B003A207A /* JumperMan.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +539,7 @@
 				F94F6AE01E5C6B7D009CDD53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F94F6AE11E5C6B7D009CDD53 /* Build configuration list for PBXNativeTarget "ProptocolsTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +548,7 @@
 				F94F6AE31E5C6B7D009CDD53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F94F6AE41E5C6B7D009CDD53 /* Build configuration list for PBXNativeTarget "ProptocolsUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +557,7 @@
 				F94F6AE61E5C6B7D009CDD53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
